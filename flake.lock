@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1792502884,
+        "narHash": "sha256-IoNisKcGbUjdd45qCqywGMCYmZ5EnkxezvLII0FWwNA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pyfa-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792227348,
+        "narHash": "sha256-HwxTAZd3R8SdnruE6Qq/dAzE7pQw6/Y0vXcFcVsJq7A=",
+        "owner": "pyfa-org",
+        "repo": "Pyfa",
+        "rev": "d2722a4c8b2ec9cdfded5024cb97df362ac513da",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pyfa-org",
+        "repo": "Pyfa",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "pyfa-src": "pyfa-src"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

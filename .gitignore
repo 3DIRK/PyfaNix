@@ -1,0 +1,12 @@
+# Nix build outputs & direnv
+result
+result-*
+.direnv
+.envrc.cache
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Temp files
+*.tmp
